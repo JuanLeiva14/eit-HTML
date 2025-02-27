@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.box-short-cuts {
+    border: 1px solid black;
+    /* border-width: 1px; */
+    /* border-style: solid; */
+    /* border-color: black; */
+    padding:16px;
+    margin: 8px;```````````````````````````````````````````
+}
+#aside-menu {
+    background-color: darkslategray;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0px;
+}
+
+/* .navigation li{
+    margin-left: 16px
+    o
+    padding-left:16px
+} */
+
+.container{
+    display:flex;
+}
+
+/* COLORES Hexadecimal */
+/* NEGRO #000000 ---> Blanco #FFFFFF */
+
+/* COLORES RGB */
+/* NEGRO rgb (0 , 0 , 0 )--> Blanco rgb (255 , 255 , 255 ) */ 

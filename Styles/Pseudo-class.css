@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,600;0,700;1,200;1,400;1,500&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.primary-button {
+    /*Fonts*/
+    font-family: "Titillium Web", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    /*Color*/
+    color: white;
+    background-color: #0d0c0c;
+    /*Radius*/
+    border-radius: 0.5rem;
+}
+
+.primary-button:hover {
+     /*Color*/
+     color: rgb(0, 0, 0);
+     background-color: #bfbfbf;
+     /*Cursor*/
+     cursor: pointer;
+}
+
+.primary-button:focus {
+    outline: 2px solid rgb(15, 15, 79);
+    outline-offset: 2px;
+}
+
+/* .primary-button: focus aparece con tab y hacer click*/
+.primary-button:focus-visible {
+    /* Solo se aplica con tab*/
+    outline: 2px solid(15, 15, 79);
+    outline-offset: 2px;
+}
+
+.primary-button:active {
+    /*Color*/
+    color: #151313;
+    background: #8b8a8a;
+}
